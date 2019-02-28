@@ -1,6 +1,10 @@
-# teamcity-clover
+# Clover.xml parser for TeamCity
+
+Source: https://github.com/micheh/teamcity-clover
 
 Use the results from the reported code coverage metrics of PHPUnit (clover.xml) in TeamCity
+
+## How to use
 
 `docker run -ti -v /path/to/clover.xml:/clover.xml arhix/teamcity-clover`
 
